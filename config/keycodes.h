@@ -11,6 +11,12 @@
 #define MAC_CUT &kp LG(X)
 #define MAC_SELECT_ALL &kp LG(A)
 
+#define _ARING_ &kp RA(A)
+#define _OSLSH_ &kp RA(O)
+#define _AELIG_ &kp RA(SINGLE_QUOTE)
+
+
+
 #define o_NAV_o &mo NAV
 #define LT_NAV  &lt NAV
 
@@ -111,3 +117,29 @@
 #define _LCTRL_ &kp LEFT_CONTROL
 #define _LALT__ &kp LEFT_ALT
 #define _LCMD__ &kp LEFT_COMMAND
+
+
+#define _BTCLR_ &bt BT_CLR
+#define _BT_00_ &bt BT_SEL 0
+#define _BT_01_ &bt BT_SEL 1
+#define _BT_02_ &bt BT_SEL 2
+
+
+
+
+
+#define _RESET_ RESET
+
+#define MAC_PASTE_MATCH LSFT(LOPT(LCMD(KC_C)))
+
+#define _BRIMN_ KC_F14
+#define _BRIMX_ KC_F15
+
+#define _DSKT1_ HYPR(___1___)
+#define _DSKT2_ HYPR(___2___)
+#define _DSKT3_ HYPR(___3___)
+#define _DSKT4_ HYPR(___4___)
+#define _DSKT5_ HYPR(___5___)
+#define _DSKT6_ HYPR(___6___)
+
+#define _SCRSH_ LCMD(LSFT(___4___))
