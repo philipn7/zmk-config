@@ -10,7 +10,7 @@ toprowcombos_ ## LAYER ## _ ## POSITION { \
   combos {
     compatible = "zmk,combos";
 
-    MIRYOKU_KLUDGE_TOPROWCOMBOS_MACRO(DEF, 0 11, &kp Z)
+    MIRYOKU_KLUDGE_TOPROWCOMBOS_MACRO(0, 0 11, &kp Z)
 
   };
 };
