@@ -10,13 +10,13 @@
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
-  }; \
+  };
 
 / {
     combos {
         compatible = "zmk,combos";
 
-        COMBO(combo_q, &kp Q, 26 29, DEF);
+        COMBO(combo_q, &kp Q, 26 29, DEF)
     };
 };
 
