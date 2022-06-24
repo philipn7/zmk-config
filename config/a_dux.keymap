@@ -1,7 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include "keycodes.h"
-#include "combos.dtsi"
+
+#include "combos1.dtsi"
 
 / {
   keymap {
