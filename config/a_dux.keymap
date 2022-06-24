@@ -4,7 +4,7 @@
 
 #define DEF 0
 
-#include "combos1.dtsi"
+#include "combos.dtsi"
 
 / {
   keymap {
