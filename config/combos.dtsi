@@ -19,12 +19,10 @@ compatible = "zmk,combos";
               ╰────────╯ ╰────────╯
 */
 
-COMBO(enter, &kp ENTER, 16 17, DEF NAV NUM)
-COMBO(backspace, &kp BACKSPACE, 6 7, DEF NAV NUM)
-COMBO(tab, &kp TAB, 26 27, DEF NAV NUM)
-COMBO(escape, &kp ESCAPE, 0 1, DEF NAV NUM)
-COMBO(delete, &kp DELETE, 7 8, DEF NAV NUM)
-
+COMBO(enter, &kp ENTER, 7 8, DEF NAV NUM)
+COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV NUM)
+COMBO(tab, &kp TAB, 0 1, DEF NAV NUM)
+COMBO(escape, &kp ESCAPE, 1 2, DEF NAV NUM)
 
 COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 13 16, DEF)
 COMBO(left_brace, &kp LEFT_BRACE, 13 17, DEF)
@@ -68,8 +66,8 @@ COMBO(num_8, &kp N8, 11 7, DEF)
 COMBO(num_9, &kp N9, 11 8, DEF)
 COMBO(num_0, &kp N0, 11 15, DEF)
 
-COMBO(combo_z, &kp Z, 2 3, DEF)
-COMBO(combo_q, &kp Q, 1 2, DEF)
+COMBO(combo_z, &kp Z, 0 11, DEF)
+COMBO(combo_q, &kp Q, 26 29, DEF)
 
 //combo_lf {
 //  bindings = <&macro_lf>;
