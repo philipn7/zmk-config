@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include "keycodes.h"
 
+// LAYERS
 #define DEF 0
 
 #include "combos.dtsi"
