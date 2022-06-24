@@ -3,7 +3,7 @@
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
-  };
+  }; \
 
 / {
     combos {
