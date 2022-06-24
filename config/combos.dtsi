@@ -19,7 +19,9 @@
               ╰────────╯ ╰────────╯
 */
 
+/{
 combos {
+  
 compatible = "zmk,combos";
 
 COMBO(enter, &kp ENTER, 7 8, DEF NAV NUM)
@@ -88,4 +90,5 @@ COMBO(combo_q, &kp Q, 26 29, DEF)
 //  layers = <DEF>;
 //};
 
-}
+};
+};
