@@ -2,72 +2,18 @@
 #include <dt-bindings/zmk/keys.h>
 #include "keycodes.h"
 
-// LAYERS
-#define DEF 0
-#define NAV 1
-#define NUM 2
-#define WIN 3
-#define SYS 4
-
-&sk {
-  release-after-ms = <2000>;
-};
-
-&kscan0 {
-  debounce-period = <10>;
-};
-
 / {
 
   keymap {
+    compatible = "zmk,keymap";
 
     base_layer {
       label = "DEF";
       bindings = <
-        ___J___  ___G___  ___M___  ___P___  ___V___    _GRAVE_  __DOT__  _SLASH_  _SQUOT_  _DQUOT_
-        ___R___  ___S___  ___N___  ___D___  ___B___    _COMMA_  ___A___  ___E___  ___I___  ___H___
-        ___X___  ___F___  ___L___  ___C___  ___W___    _MINUS_  ___U___  ___O___  ___Y___  ___K___
-                            _LSHFT_  ___T___    _SPACE_  _LSHFT_  
-      >;
-    };
-
-    nav_layer {
-      label = "NAV";
-      bindings = <
-        _______  _LCTRL_  _LOPT__  _LCTRL_  _______    _______  _BKSPC_  __UP___  __DEL__  _______
-        _______  _______  _LCMD__  _LSHFT_  _______    _______  _LEFT__  _DOWN__  _RIGHT_  _______
-        _______  _______  _______  _______  _______    _______  __TAB__  o_TABL_  o_TABR_  _______
-                            _______  _______    _SPACE_  _ENTER_  
-      >;
-    };
-
-    num_layer {
-      label = "NUM";
-      bindings = <
-        _______  _LCTRL_  _LOPT__  _LCTRL_  _______    _______  ___7___  ___8___  ___9___  _______
-        _______  _______  _LCMD__  _LSHFT_  _______    ___0___  ___4___  ___5___  ___6___  _______
-        _______  _______  _______  _______  _______    _______  ___1___  ___2___  ___3___  _______
-                            _______  _______    _SPACE_  _ENTER_  
-      >;
-    };
-
-    win_layer {
-      label = "WIN";
-      bindings = <
-        _______  _DSKT1_  _DSKT2_  _DSKT3_  _______    _______  _DSKT4_  _DSKT5_  _DSKT6_  _______
-        _______  _______  _W_PREV  _W_NEXT  _______    _______  _______  _______  _______  _______
-        _______  _______  _______  _______  _______    _______  _______  _______  _______  _______
-                            _______  _______    _SPACE_  _ENTER_  
-      >;
-    };
-
-    sys_layer {
-      label = "SYS";
-      bindings = <
-        _BTCLR_  _BT_00_  _BT_01_  _BT_02_  _______    _______  _______  _______  _______  _______
-        _______  _______  _______  _______  _______    _______  _SCRSH_  _______  _______  _______
-        _______  _______  _______  _______  _______    _______  _______  _______  _______  _______
-                            _______  _______    _______  _______  
+        ___J___  ___F___  ___M___  ___P___  ___V___    _GRAVE_  __DOT__  _SLASH_  _SQUOT_  _DQUOT_
+        ___R___  ___S___  ___N___  ___D___  ___W___    _COMMA_  ___A___  ___E___  ___I___  ___H___
+        ___X___  ___G___  ___L___  ___C___  ___B___    _MINUS_  ___U___  ___O___  ___Y___  ___K___
+                          _______  _LSHFT_  ___T___    _SPACE_  _LSHFT_  _______
       >;
     };
   };
