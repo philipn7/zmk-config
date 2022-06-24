@@ -8,8 +8,13 @@
 / {
     combos {
         compatible = "zmk,combos";
+        
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 11>;
+            bindings = <&kp Z>;
+        };
 
-        COMBO(combo_z, &kp Z, 0 11, DEF);
-        COMBO(combo_q, &kp Q, 26 29, DEF);
+        COMBO(combo_q, &kp Q, 26 29, 0);
     };
 };
