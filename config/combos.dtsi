@@ -1,6 +1,6 @@
 #include "keycodes.h"
 
-compatible = "zmk,combos";
+
 
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
   combo_##NAME { \
@@ -18,6 +18,9 @@ compatible = "zmk,combos";
   ╰───────────╮ 30  31 │ │ 32  34 ╭───────────╯
               ╰────────╯ ╰────────╯
 */
+
+combos {
+compatible = "zmk,combos";
 
 COMBO(enter, &kp ENTER, 7 8, DEF NAV NUM)
 COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV NUM)
@@ -84,3 +87,5 @@ COMBO(combo_q, &kp Q, 26 29, DEF)
 //  key-positions = <26 28>;
 //  layers = <DEF>;
 //};
+
+}
