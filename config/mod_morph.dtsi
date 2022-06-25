@@ -1,3 +1,5 @@
+#define str(s) #s
+
 #define MOD_MORPH_NOSHIFT_MACRO(NAME, KEY, MOD_KEY) \
 ZMK_MACRO(macro_##NAME,\
    wait-ms = <0>;\
@@ -24,14 +26,17 @@ mm_##NAME: mm_##NAME {\
     mods = <(MOD_LSFT|MOD_RSFT)>; \
   }; \
 
+/ {
+    behaviors {
+      // Parens an Brackets
+      MOD_MORPH_NOSHIFT_MACRO(morph_brackets, LEFT_BRACKET, RIGHT_BRACKET)
+      MOD_MORPH(morph_braces, LEFT_BRACE, RIGHT_BRACE)
+      MOD_MORPH(morph_lt_gt, LESS_THAN, GREATER_THAN)
+      MOD_MORPH(morph_parens, LEFT_PARENTHESIS, RIGHT_PARENTHESIS)
+      MOD_MORPH(morph_slashes, SLASH, BACKSLASH)
 
-// Parens an Brackets
-MOD_MORPH_NOSHIFT_MACRO(morph_brackets, LEFT_BRACKET, RIGHT_BRACKET)
-MOD_MORPH(morph_braces, LEFT_BRACE, RIGHT_BRACE)
-MOD_MORPH(morph_lt_gt, LESS_THAN, GREATER_THAN)
-MOD_MORPH(morph_parens, LEFT_PARENTHESIS, RIGHT_PARENTHESIS)
-MOD_MORPH(morph_slashes, SLASH, BACKSLASH)
-
-// Symbols
-MOD_MORPH(morph_minus_plus, MINUS, PLUS)
-MOD_MORPH(morph_equals_arrow, EQUAL, m_equals_arrow)
+      // Symbols
+      MOD_MORPH(morph_minus_plus, MINUS, PLUS)
+      MOD_MORPH(morph_equals_arrow, EQUAL, m_equals_arrow)
+    };
+};
