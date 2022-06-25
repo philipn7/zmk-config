@@ -1,0 +1,12 @@
+/ {
+    macros {
+        m_equals_arrow: m_equals_arrow {
+            label = "m_equals_arrow";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp EQUAL &kp GREATER_THAN>
+                ;
+        };
+    };
+};

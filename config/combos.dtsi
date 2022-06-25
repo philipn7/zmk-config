@@ -27,9 +27,10 @@
         COMBO(tab, &kp TAB, 0 1, DEF NAV NUM)
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV NUM)
 
-        // Parenthesis and Brackets
+        // Vertical
         COMBO(left_bracket, &kp LEFT_BRACKET, 2 12, DEF)
         COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 3 13, DEF)
+        COMBO(underscore, &kp UNDERSCORE, 5 15, DEF)
         COMBO(left_brace, &kp LEFT_BRACE, 6 16, DEF)
         COMBO(less_than, &kp LESS_THAN, 7 17, DEF)
 
@@ -57,20 +58,16 @@
         COMBO(paste, MAC_PASTE, 22 23, DEF)
         COMBO(select_all, MAC_SELECT_ALL, 20 23, DEF)
 
-        //COMBO(tab_left, o_TABL_, 27 28, DEF)
-        //COMBO(tab_right, o_TABR_, 28 29, DEF)
-
-        
-        COMBO(num_1, &kp N1, 12 26, DEF)
-        COMBO(num_2, &kp N2, 12 27, DEF)
-        COMBO(num_3, &kp N3, 12 28, DEF)
-        COMBO(num_4, &kp N4, 12 16, DEF)
-        COMBO(num_5, &kp N5, 12 17, DEF)
-        COMBO(num_6, &kp N6, 12 18, DEF)
-        COMBO(num_7, &kp N7, 12 6, DEF)
-        COMBO(num_8, &kp N8, 12 7, DEF)
-        COMBO(num_9, &kp N9, 12 8, DEF)
-        COMBO(num_0, &kp N0, 12 15, DEF)
+        COMBO(num_1, &kp N1, 13 26, DEF)
+        COMBO(num_2, &kp N2, 13 27, DEF)
+        COMBO(num_3, &kp N3, 13 28, DEF)
+        COMBO(num_4, &kp N4, 13 16, DEF)
+        COMBO(num_5, &kp N5, 13 17, DEF)
+        COMBO(num_6, &kp N6, 13 18, DEF)
+        COMBO(num_7, &kp N7, 13 6, DEF)
+        COMBO(num_8, &kp N8, 13 7, DEF)
+        COMBO(num_9, &kp N9, 13 8, DEF)
+        COMBO(num_0, &kp N0, 13 15, DEF)
         
 
         COMBO(combo_z, &kp Z, 0 11, DEF)

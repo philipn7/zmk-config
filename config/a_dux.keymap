@@ -9,12 +9,14 @@
 #define WIN 3
 #define SYS 4
 
-#include "combos.dtsi"
-
 &sk {
     release-after-ms = <2000>;
     quick-release;
 };
+
+#include "combos.dtsi"
+#include "macros.dtsi"
+#include "mod_morph.dtsi"
 
 / {
   keymap {
