@@ -106,6 +106,7 @@
 #define _HOME__ &kp HOME
 
 #define _LSHFT_ &kp LEFT_SHIFT
+#define _SSHFT_ &sk LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
 #define _LALT__ &kp LEFT_ALT
 #define _LCMD__ &kp LEFT_COMMAND
