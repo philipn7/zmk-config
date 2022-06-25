@@ -128,6 +128,7 @@
 #define os_GUI_ &sk LEFT_GUI
 // One Shot Mods (Quick Release)
 #define osqSHFT &skq LEFT_SHIFT
+#define td_SHFT &td_shift_caps
 
 
 #define _BTCLR_ &bt BT_CLR

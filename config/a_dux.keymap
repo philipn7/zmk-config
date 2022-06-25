@@ -54,9 +54,9 @@
       };
 
       // Double tap CAPSLOCK on shift
-      td_SHFT: tap_dance_shift {
+      td_shift_caps: td_shift_caps {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_SHIFT";
+            label = "TAP_DANCE_SHIFT_CAPS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <osqSHFT>, <&kp CAPSLOCK>;
