@@ -21,11 +21,11 @@
     combos {
         compatible = "zmk,combos";
 
-        COMBO(enter, &kp ENTER, 7 8, DEF NAV NUM)
-        COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV NUM)
-        COMBO(bksp_word, _BKSPW_, 8 9, DEF NAV NUM)
-        COMBO(tab, &kp TAB, 0 1, DEF NAV NUM)
-        COMBO(escape, &kp ESCAPE, 1 2, DEF NAV NUM)
+        COMBO(enter, &kp ENTER, 7 8, DEF NAV )
+        COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV )
+        COMBO(bksp_word, _BKSPW_, 8 9, DEF NAV )
+        COMBO(tab, &kp TAB, 0 1, DEF NAV )
+        COMBO(escape, &kp ESCAPE, 1 2, DEF NAV )
 
         // Vertical
         COMBO(left_bracket, _LBRAC_, 2 12, DEF)
