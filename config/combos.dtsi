@@ -39,7 +39,7 @@
         COMBO(TILDE, &kp TILDE, 11 31, DEF)
         COMBO(GRAVE, &kp GRAVE, 10 31, DEF)
         COMBO(AT, &kp AT, 23 31, DEF)
-        COMBO(ASTRK, &kp ASTRK, 24 31, DEF)
+        COMBO(ASTRK, &kp ASTRK, 22 31, DEF)
         
         // Right Hand Symbols
         COMBO(EXCL, &kp EXCL, 16 32, DEF)
@@ -47,7 +47,7 @@
         COMBO(PERCENT, &kp PERCENT, 18 32, DEF)
         COMBO(AMPS, &kp AMPS, 19 32, DEF)
         COMBO(CARET, &kp CARET, 26 32, DEF)
-        COMBO(PIPE, &kp PIPE, 25 32, DEF)
+        COMBO(PIPE, &kp PIPE, 27 32, DEF)
         
         // Shortcuts
         COMBO(undo, MAC_UNDO, 20 21, DEF)
@@ -60,7 +60,7 @@
         //COMBO(tab_left, o_TABL_, 27 28, DEF)
         //COMBO(tab_right, o_TABR_, 28 29, DEF)
 
-        /*
+        
         COMBO(num_1, &kp N1, 12 26, DEF)
         COMBO(num_2, &kp N2, 12 27, DEF)
         COMBO(num_3, &kp N3, 12 28, DEF)
@@ -71,7 +71,7 @@
         COMBO(num_8, &kp N8, 12 7, DEF)
         COMBO(num_9, &kp N9, 12 8, DEF)
         COMBO(num_0, &kp N0, 12 15, DEF)
-        */
+        
 
         COMBO(combo_z, &kp Z, 0 11, DEF)
         COMBO(combo_q, &kp Q, 26 29, DEF)
