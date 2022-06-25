@@ -99,6 +99,7 @@
 #define __TAB__ &kp TAB
 #define _ENTER_ &kp ENTER
 #define _BKSPC_ &kp BACKSPACE
+#define _BKSPW_ LG(&kp BACKSPACE)
 #define __DEL__ &kp DELETE
 #define __ESC__ &kp ESCAPE
 #define __END__ &kp END

@@ -23,7 +23,7 @@
 
         COMBO(enter, &kp ENTER, 7 8, DEF NAV NUM)
         COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV NUM)
-        COMBO(bkspWord, LG(&kp BACKSPACE), 18 9, DEF NAV NUM)
+        COMBO(bkspWord, _BKSPW_, 18 9, DEF NAV NUM)
         COMBO(tab, &kp TAB, 0 1, DEF NAV NUM)
         COMBO(escape, &kp ESCAPE, 0 1, DEF NAV NUM)
         COMBO(delete, &kp DELETE, 7 8, DEF NAV NUM)
