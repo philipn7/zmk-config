@@ -115,6 +115,8 @@
 #define __ESC__ &kp ESCAPE
 #define __END__ &kp END
 #define _HOME__ &kp HOME
+#define _CAPSL_ &kp CAPSLOCK
+#define _CAPWD_ &caps_word
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
@@ -128,7 +130,6 @@
 #define os_GUI_ &sk LEFT_GUI
 // One Shot Mods (Quick Release)
 #define osqSHFT &skq LEFT_SHIFT
-#define td_SHFT &td_shift_caps
 
 
 #define _BTCLR_ &bt BT_CLR
