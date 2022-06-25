@@ -21,6 +21,7 @@
 
 / {
     behaviors {
+      // Sticky Key with Quick Release
       skq: sticky_key_quick_release {
         compatible = "zmk,behavior-sticky-key";
         label = "STICKY_KEY_QUICK_RELEASE";
@@ -51,6 +52,15 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0 1 2 3 4 7 8 9 10 11 12 13 14 20 21 22 23 24>;    // <---[[left-hand keys]]
       };
+
+      // Double tap CAPSLOCK on shift
+      td_SHFT: tap_dance_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_SHIFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <osqSHFT>, <&kp CAPSLOCK>;
+        };
     };
 };
 
@@ -66,7 +76,7 @@
         ___J___  ___G___  ___M___  ___P___  ___V___    _MINUS_  __DOT__  _SLASH_  _SQUOT_  _SCOLN_
         a__R___  g__S___  c__N___  s__D___  ___B___    _COMMA_  s__A___  c__E___  g__I___  a__H___
         ___X___  ___F___  ___L___  ___C___  ___W___    _EQUAL_  ___U___  ___O___  ___Y___  ___K___
-                                   o_NUM_o  x_NAV_x    _SPACE_  osqSHFT  
+                                   o_NUM_o  x_NAV_x    _SPACE_  td_SHFT  
       >;
     };
 
@@ -74,8 +84,8 @@
       label = "NAV";
       bindings = <
         _______  _HOME__  __UP___  __END__  _______    _______  ___7___  ___8___  ___9___  _______    
-        _______  _LEFT__  _DOWN__  _RIGHT_  _______    ___0___  ___4___  ___5___  ___6___  _______    
-        os_GUI_  os_ALT_  os_CTRL  os_SHFT  _______    _______  ___1___  ___2___  ___3___  _______    
+        _LSHFT_  _LEFT__  _DOWN__  _RIGHT_  _______    ___0___  ___4___  ___5___  ___6___  _______    
+        _LCTRL_  os_GUI_  os_CTRL  os_SHFT  os_ALT_    _______  ___1___  ___2___  ___3___  _______    
                                    _______  _______    _SPACE_  _______                 
       >;
     };
