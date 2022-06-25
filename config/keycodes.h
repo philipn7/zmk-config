@@ -101,6 +101,8 @@
 #define _BKSPC_ &kp BACKSPACE
 #define __DEL__ &kp DELETE
 #define __ESC__ &kp ESCAPE
+#define __END__ &kp END
+#define _HOME__ &kp HOME
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
