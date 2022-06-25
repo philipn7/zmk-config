@@ -112,13 +112,13 @@
 #define _LOPT__ &sk LEFT_ALT
 #define _LCMD__ &kp LEFT_COMMAND
 
-// One Shot Mods
+// One Shot Mods (Callum Style)
 #define os_SHFT &sk LEFT_SHIFT
 #define os_CTRL &sk LEFT_CONTROL
 #define os_ALT_ &sk LEFT_ALT
 #define os_CMD_ &sk LEFT_COMMAND
-// One Shot Quick Release
-#define osqSHFT skq LEFT_SHIFT
+// One Shot Mods (Quick Release)
+#define osqSHFT &skq LEFT_SHIFT
 
 
 #define _BTCLR_ &bt BT_CLR
