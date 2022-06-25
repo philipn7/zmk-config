@@ -12,6 +12,10 @@
 #include "combos.dtsi"
 #include "mod_morph.dtsi"
 
+&sk {
+    release-after-ms = <6000>;
+};
+
 / {
     behaviors {
       skq: sticky_key_quick_release {
