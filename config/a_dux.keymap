@@ -29,6 +29,28 @@
     nav_layer {
       label = "NAV";
       bindings = <
+        ___J___  ___G___  ___M___  ___P___  ___V___    _MINUS_  __DOT__  _SLASH_  _SQUOT_  _SCOLN_
+        ___R___  ___S___  ___N___  ___D___  ___B___    _COMMA_  ___A___  ___E___  ___I___  ___H___
+        ___X___  ___F___  ___L___  ___C___  ___W___    _EQUAL_  ___U___  ___O___  ___Y___  ___K___
+                                   _LSHFT_  ___T___    _SPACE_  _LSHFT_         
+      >;
+    };
+
+    num_layer {
+      label = "NUM";
+      bindings = <
+        ___J___  ___G___  ___M___  ___P___  ___V___    _MINUS_  __DOT__  _SLASH_  _SQUOT_  _SCOLN_
+        ___R___  ___S___  ___N___  ___D___  ___B___    _COMMA_  ___A___  ___E___  ___I___  ___H___
+        ___X___  ___F___  ___L___  ___C___  ___W___    _EQUAL_  ___U___  ___O___  ___Y___  ___K___
+                                   _LSHFT_  ___T___    _SPACE_  _LSHFT_          
+      >;
+    };
+
+
+  /*
+    nav_layer {
+      label = "NAV";
+      bindings = <
         _______  _HOME__  __UP___  __END__  _______    _______  _LCTRL_  _LOPT__  _LCTRL_  _______    
         _______  _LEFT__  _DOWN__  _RIGHT_  _______    _______  _______  _LCMD__  _LSHFT_  _______    
         _______  _______  o_TABL_  o_TABR_  _______    _______  _______  _______  _______  _______    
@@ -45,6 +67,6 @@
                                    _______  _______    _SPACE_  _______         
       >;
     };
-
+*/
   };
 };
