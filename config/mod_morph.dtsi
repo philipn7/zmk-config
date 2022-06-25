@@ -33,7 +33,7 @@ mm_##NAME: mm_##NAME {\
       MOD_MORPH(braces, LEFT_BRACE, RIGHT_BRACE)
       MOD_MORPH(lt_gt, LESS_THAN, GREATER_THAN)
       MOD_MORPH(parens, LEFT_PARENTHESIS, RIGHT_PARENTHESIS)
-      MOD_MORPH(slashes, SLASH, BACKSLASH)
+      MOD_MORPH_NOSHIFT_MACRO(slashes, SLASH, BACKSLASH)
 
       // Symbols
       MOD_MORPH(minus_plus, MINUS, PLUS)

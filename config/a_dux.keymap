@@ -15,7 +15,6 @@
 };
 
 #include "combos.dtsi"
-#include "macros.dtsi"
 #include "mod_morph.dtsi"
 
 / {
