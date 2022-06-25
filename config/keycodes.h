@@ -56,13 +56,13 @@
 #define ___8___ &kp N8
 #define ___9___ &kp N9
 
-#define _LPARN_ &kp LEFT_PARENTHESIS
+#define _LPARN_ &morph_parens
 #define _RPARN_ &kp RIGHT_PARENTHESIS
-#define _LCBRC_ &kp LEFT_BRACE
+#define _LCBRC_ &morph_braces
 #define _RCBRC_ &kp RIGHT_BRACE
-#define _LBRAC_ &kp LEFT_BRACKET
+#define _LBRAC_ &morph_brackets
 #define _RBRAC_ &kp RIGHT_BRACKET
-#define _LABRC_ &kp LESS_THAN
+#define _LABRC_ &morph_lt_gt
 #define _RABRC_ &kp GREATER_THAN
 
 #define __DOT__ &kp DOT
@@ -74,13 +74,13 @@
 #define _TILDE_ &kp TILDE
 #define _GRAVE_ &kp GRAVE
 #define _UNDRS_ &kp UNDERSCORE
-#define _EQUAL_ &kp EQUAL
-#define _MINUS_ &kp MINUS
+#define _EQUAL_ &morph_equals_arrow
+#define _MINUS_ &morph_minus_plus
 #define _PLUS__ &kp PLUS
 #define _STAR__ &kp STAR
 #define _HASH__ &kp HASH
 #define _DOLLR_ &kp DOLLAR
-#define _SLASH_ &kp SLASH
+#define _SLASH_ &morph_slashes
 #define _BSLSH_ &kp BACKSLASH
 #define _PERCT_ &kp PERCENT
 #define _AMPRS_ &kp AMPERSAND

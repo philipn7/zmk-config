@@ -28,11 +28,11 @@
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV NUM)
 
         // Vertical
-        COMBO(left_bracket, &kp LEFT_BRACKET, 2 12, DEF)
-        COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 3 13, DEF)
+        COMBO(left_bracket, _LBRAC_, 2 12, DEF)
+        COMBO(left_parenthesis, _LPARN_, 3 13, DEF)
         COMBO(underscore, &kp UNDERSCORE, 5 15, DEF)
-        COMBO(left_brace, &kp LEFT_BRACE, 6 16, DEF)
-        COMBO(less_than, &kp LESS_THAN, 7 17, DEF)
+        COMBO(left_brace, _LCBRC_, 6 16, DEF)
+        COMBO(less_than, _LABRC_, 7 17, DEF)
 
         // Left Hand Symbols
         COMBO(HASH, &kp HASH, 13 31, DEF)
