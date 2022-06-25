@@ -37,6 +37,6 @@ mm_##NAME: mm_##NAME {\
 
       // Symbols
       MOD_MORPH(morph_minus_plus, MINUS, PLUS)
-      MOD_MORPH(morph_equals_arrow, EQUAL, m_equals_arrow)
+      MOD_MORPH(morph_equals_arrow, EQUAL, EQUAL &kp GREATER_THAN)
     };
 };
