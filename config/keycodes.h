@@ -11,12 +11,19 @@
 #define MAC_CUT &kp LG(X)
 #define MAC_SELECT_ALL &kp LG(A)
 
-#define o_NAV_o &mo NAV
-#define LT_NAV  &lt NAV
-
 #define x_NAV_x &lt NAV T
-#define o_SPC_o &lt SYM SPACE
 #define o_NUM_o &mo NUM
+
+// Home Row Mods
+#define s__D___ &lh_pht LSFT D
+#define c__N___ &lh_pht LCTL N
+#define g__S___ &lh_pht LGUI S
+#define a__R___ &lh_pht LALT R
+#define s__A___ &rh_pht LSFT A
+#define c__E___ &rh_pht LCTL E
+#define g__I___ &rh_pht LGUI I
+#define a__H___ &rh_pht LALT H
+
 
 #define ___A___ &kp A
 #define ___B___ &kp B
