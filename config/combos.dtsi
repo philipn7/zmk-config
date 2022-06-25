@@ -73,8 +73,8 @@
         */
 
         // One Shot NUM
-        COMBO(combo_NUM, &sl 2, 11 12, DEF, 50)
-        COMBO(combo_osqSHFT, osqSHFT, 13 16, DEF, 60)
+        COMBO(combo_NUM, &sl 2, 12 13, DEF, 50)
+        COMBO(combo_osqSHFT, osqSHFT, 11 12, DEF, 60)
 
         // RESET and BOOTLOADER
         COMBO(combo_reset_left, &reset, 0 20, DEF, 60)
