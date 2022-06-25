@@ -1,59 +1,33 @@
+#define MOD_MORPH_NOSHIFT_MACRO(NAME, KEY, MOD_KEY) \
+ZMK_MACRO(macro_##NAME,\
+   wait-ms = <0>;\
+   tap-ms = <0>;\
+   bindings\
+   = <&macro_release &kp LSHFT>\
+   , <&macro_tap &kp MOD_KEY>\
+   , <&macro_press &kp LSHFT>;)\
+\
+mm_##NAME: mm_##NAME {\
+   compatible = "zmk,behavior-mod-morph";\
+   label = str(NAME);\
+   #binding-cells = <0>;\
+   bindings = <&kp KEY>, <&macro_##NAME>;\
+   mods = <(MOD_LSFT|MOD_RSFT)>;\
+}; \
+
+#define MOD_MORPH(NAME, KEY, MOD_KEY) \
+  mm_##NAME: mm_##NAME { \
+    compatible = "zmk,behavior-mod-morph"; \
+    label = str(NAME); \
+    #binding-cells = <0>; \
+    bindings = <&kp KEY>, <&kp MOD_KEY>; \
+    mods = <(MOD_LSFT|MOD_RSFT)>; \
+  }; \
+
 / {
     behaviors {
-      morph_minus_plus: morph_minus_plus {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_MINUS_PLUS";
-        #binding-cells = <0>;
-        bindings = <&kp MINUS>, <&kp PLUS>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
-
-      morph_braces: morph_braces {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_BRACES";
-        #binding-cells = <0>;
-        bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
-
-      morph_brackets: morph_brackets {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_BRACKETS";
-        #binding-cells = <0>;
-        bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
-
-      morph_lt_gt: morph_lt_gt {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_LT_GT";
-        #binding-cells = <0>;
-        bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
-
-      morph_parens: morph_parens {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_PARENS";
-        #binding-cells = <0>;
-        bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
-
-      morph_slashes: morph_slashes {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_SLASHES";
-        #binding-cells = <0>;
-        bindings = <&kp FSLH>, <&kp BSLH>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
-
-      morph_equals_arrow: morph_equals_arrow {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MORPH_EQUALS_ARROW";
-        #binding-cells = <0>;
-        bindings = <&kp EQUAL>, <&m_equals_arrow>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      };
+      MOD_MORPH_NOSHIFT_MACRO(morph_brakets, LEFT_BRACKET, RIGHT_BRACKET)
+      MOD_MORPH(morph_minus_plus, MINUS, PLUS)
+      MOD_MORPH(morph_braces, LEFT_BRACE, RIGHT_BRACE)
     };
 };
