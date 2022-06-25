@@ -55,5 +55,5 @@
         bindings = <&kp EQUAL>, <&m_equals_arrow>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
       };
-
+    };
 };
