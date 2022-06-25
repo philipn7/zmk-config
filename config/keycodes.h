@@ -11,12 +11,6 @@
 #define MAC_CUT &kp LG(X)
 #define MAC_SELECT_ALL &kp LG(A)
 
-#define _ARING_ &kp RA(A)
-#define _OSLSH_ &kp RA(O)
-#define _AELIG_ &kp RA(SINGLE_QUOTE)
-
-
-
 #define o_NAV_o &mo NAV
 #define LT_NAV  &lt NAV
 
@@ -50,11 +44,6 @@
 #define ___X___ &kp X
 #define ___Y___ &kp Y
 #define ___Z___ &kp Z
-
-// WORKS FOR ABC EXTENDED
-#define _ARING_ &kp RA(A)
-#define _OSLSH_ &kp RA(O)
-#define _AELIG_ &kp RA(SINGLE_QUOTE)
 
 #define ___0___ &kp N0
 #define ___1___ &kp N1
