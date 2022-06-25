@@ -1,15 +1,19 @@
 #define XXXXXXX &none
 #define _______ &none
 
-#define o_TABL_ &kp LS(LG(LEFT_BRACKET))
-#define o_TABR_ &kp LS(LG(RIGHT_BRACKET))
+#define WIN_UNDO &kp LC(Z)
+#define WIN_REDO &kp LC(Y)
+#define WIN_COPY &kp LC(C)
+#define WIN_PASTE &kp LC(V)
+#define WIN_CUT &kp LC(X)
+#define WIN_SELECT_ALL &kp LC(A)
 
-#define MAC_UNDO &kp LG(Z)
-#define MAC_REDO &kp LS(LG(Z))
-#define MAC_COPY &kp LG(C)
-#define MAC_PASTE &kp LG(V)
-#define MAC_CUT &kp LG(X)
-#define MAC_SELECT_ALL &kp LG(A)
+// #define MAC_UNDO &kp LG(Z)
+// #define MAC_REDO &kp LS(LG(Z))
+// #define MAC_COPY &kp LG(C)
+// #define MAC_PASTE &kp LG(V)
+// #define MAC_CUT &kp LG(X)
+// #define MAC_SELECT_ALL &kp LG(A)
 
 #define x_NAV_x &lt NAV T
 #define o_NUM_o &mo NUM
@@ -106,7 +110,7 @@
 #define __TAB__ &kp TAB
 #define _ENTER_ &kp ENTER
 #define _BKSPC_ &kp BACKSPACE
-#define _BKSPW_ &kp LG(BACKSPACE)
+#define _BKSPW_ &kp LC(BACKSPACE)
 #define __DEL__ &kp DELETE
 #define __ESC__ &kp ESCAPE
 #define __END__ &kp END
@@ -115,13 +119,13 @@
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
 #define _LALT__ &kp LEFT_ALT
-#define _LCMD__ &kp LEFT_COMMAND
+#define _LGUI__ &kp LEFT_GUI
 
 // One Shot Mods (Callum Style)
 #define os_SHFT &sk LEFT_SHIFT
 #define os_CTRL &sk LEFT_CONTROL
 #define os_ALT_ &sk LEFT_ALT
-#define os_CMD_ &sk LEFT_COMMAND
+#define os_GUI_ &sk LEFT_GUI
 // One Shot Mods (Quick Release)
 #define osqSHFT &skq LEFT_SHIFT
 
@@ -135,7 +139,7 @@
 
 
 
-#define MAC_PASTE_MATCH LSFT(LOPT(LCMD(KC_C)))
+//#define MAC_PASTE_MATCH LSFT(LOPT(LCMD(KC_C)))
 
 #define _BRIMN_ KC_F14
 #define _BRIMX_ KC_F15

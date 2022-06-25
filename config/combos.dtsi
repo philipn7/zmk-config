@@ -51,12 +51,12 @@
         COMBO(PIPE, &kp PIPE, 27 32, DEF)
         
         // Shortcuts
-        COMBO(undo, MAC_UNDO, 20 21, DEF)
-        COMBO(redo, MAC_REDO, 20 10, DEF)
-        COMBO(copy, MAC_COPY, 21 22, DEF)
-        COMBO(cut, MAC_CUT, 21 23, DEF)
-        COMBO(paste, MAC_PASTE, 22 23, DEF)
-        COMBO(select_all, MAC_SELECT_ALL, 20 23, DEF)
+        COMBO(undo, WIN_UNDO, 20 21, DEF)
+        COMBO(redo, WIN_REDO, 20 10, DEF)
+        COMBO(copy, WIN_COPY, 21 22, DEF)
+        COMBO(cut, WIN_CUT, 21 23, DEF)
+        COMBO(paste, WIN_PASTE, 22 23, DEF)
+        COMBO(select_all, WIN_SELECT_ALL, 20 23, DEF)
 
         /* // Numpad combos
         COMBO(num_1, &kp N1, 13 26, DEF)
@@ -76,11 +76,5 @@
 
         COMBO(combo_z, &kp Z, 0 11, DEF)
         COMBO(combo_q, &kp Q, 26 29, DEF)
-
-        // Reset Keyboard
-        COMBO(combo_bootloader, &bootloader, 4 24, DEF)
-        COMBO(combo_bootloader, &bootloader, 5 25, DEF)
-        COMBO(combo_reset, &reset, 0 20, DEF)
-        COMBO(combo_reset, &reset, 9 29, DEF)
     };
 };
