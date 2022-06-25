@@ -128,8 +128,6 @@
 
 
 
-#define _RESET_ RESET
-
 #define MAC_PASTE_MATCH LSFT(LOPT(LCMD(KC_C)))
 
 #define _BRIMN_ KC_F14

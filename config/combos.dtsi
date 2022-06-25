@@ -76,5 +76,11 @@
 
         COMBO(combo_z, &kp Z, 0 11, DEF)
         COMBO(combo_q, &kp Q, 26 29, DEF)
+
+        // Reset Keyboard
+        COMBO(combo_bootloader, &bootloader, 4 24, DEF)
+        COMBO(combo_bootloader, &bootloader, 5 25, DEF)
+        COMBO(combo_reset, &reset, 0 20, DEF)
+        COMBO(combo_reset, &reset, 9 29, DEF)
     };
 };
