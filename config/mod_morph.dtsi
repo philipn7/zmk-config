@@ -7,7 +7,8 @@ ZMK_MACRO(macro_##NAME,\
    bindings\
    = <&macro_release &kp LSHFT>\
    , <&macro_tap &kp MOD_KEY>\
-   , <&macro_press &kp LSHFT>;)\
+   , <&macro_press &kp LSHFT>
+   , <&macro_pause_for_release>;)\
 \
 mm_##NAME: mm_##NAME {\
    compatible = "zmk,behavior-mod-morph";\
@@ -37,6 +38,6 @@ mm_##NAME: mm_##NAME {\
 
       // Symbols
       MOD_MORPH(morph_minus_plus, MINUS, PLUS)
-      MOD_MORPH(morph_equals_arrow, EQUAL, EQUAL &kp GREATER_THAN)
+      MOD_MORPH_NOSHIFT_MACRO(morph_equals_arrow, EQUAL, EQUAL &kp GREATER_THAN)
     };
 };
