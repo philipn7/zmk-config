@@ -6,14 +6,17 @@
 #define DEF 0
 #define NAV 1
 #define NUM 2
-#define WIN 3
-#define SYS 4
 
 #include "combos.dtsi"
 #include "mod_morph.dtsi"
 
 &sk {
+    // One Shot Mod
     release-after-ms = <6000>;
+};
+&sl {
+    // One Shot Layer
+    release-after-ms = <1000>;
 };
 
 / {

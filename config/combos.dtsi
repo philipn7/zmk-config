@@ -72,7 +72,7 @@
         */
 
         // One Shot NUM
-        COMBO(combo_NUM, &kp Z, 11 12, DEF)
+        COMBO(combo_NUM, &sl 2, 11 12, DEF)
 
         COMBO(combo_z, &kp Z, 0 11, DEF)
         COMBO(combo_q, &kp Q, 26 29, DEF)
