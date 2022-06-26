@@ -4,6 +4,8 @@
         macro_equal_arrow: macro_equal_arrow {
             label = "macro_equal_arrow";
             compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
             #binding-cells = <0>;
             bindings
                 = <&macro_release &kp LSHFT>
