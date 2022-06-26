@@ -8,7 +8,7 @@
     bindings = <&kp KEY>, <&kp MOD_KEY>; \
     mods = <(MOD_LSFT|MOD_RSFT)>; \
     masked_mods = <(MOD_LSFT|MOD_RSFT)>; \
-  }; \
+  };
 
 / {
     behaviors {
@@ -25,5 +25,4 @@
     };
 };
 
-#undef MOD_MORPH_NOSHIFFT
 #undef MOD_MORPH
