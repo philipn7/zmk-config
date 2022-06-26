@@ -131,6 +131,19 @@
 // One Shot Mods (Quick Release)
 #define osqSHFT &skq LEFT_SHIFT
 
+// Function Keys
+#define __F1___ &kp F1
+#define __F2___ &kp F2
+#define __F3___ &kp F3
+#define __F4___ &kp F4
+#define __F5___ &kp F5
+#define __F6___ &kp F6
+#define __F7___ &kp F7
+#define __F8___ &kp F8
+#define __F9___ &kp F9
+#define __F10__ &kp F10
+#define __F11__ &kp F11
+#define __F12__ &kp F12
 
 #define _BTCLR_ &bt BT_CLR
 #define _BT_00_ &bt BT_SEL 0
