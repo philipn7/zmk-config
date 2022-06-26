@@ -23,8 +23,6 @@
         compatible = "zmk,combos";
 
         COMBO(enter, &kp ENTER, 7 8, DEF NAV, 70)
-        COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV, 80)
-        COMBO(bksp_word, _BKSPW_, 8 18, DEF NAV, 80)
         COMBO(tab, &kp TAB, 0 1, DEF NAV, 80)
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 70)
 
@@ -32,9 +30,12 @@
         COMBO(slashes, _SLASH_, 1 11, DEF, 50)
         COMBO(left_bracket, _LBRAC_, 2 12, DEF, 50)
         COMBO(left_parenthesis, _LPARN_, 3 13, DEF, 50)
+        
         COMBO(underscore, &kp UNDERSCORE, 5 15, DEF, 50)
         COMBO(left_brace, _LCBRC_, 6 16, DEF, 50)
         COMBO(less_than, _LABRC_, 7 17, DEF, 50)
+        COMBO(bksp_word, _BKSPW_, 8 18, DEF NAV, 80)
+        COMBO(backspace, &kp BACKSPACE, 9 19, DEF NAV, 80)
 
         // Left Hand Symbols
         COMBO(HASH, &kp HASH, 13 31, DEF, 40)
@@ -83,7 +84,7 @@
         COMBO(combo_bootloader_left, &bootloader, 4 24, DEF, 60)
         COMBO(combo_bootloader_right, &bootloader, 5 25, DEF, 60)
 
-        COMBO(combo_z, &kp Z, 0 11, DEF, 60)
-        COMBO(combo_q, &kp Q, 26 29, DEF, 60)
+        COMBO(combo_z, &kp Z, 0 10, DEF, 60)
+        COMBO(combo_q, &kp Q, 16 26, DEF, 60)
     };
 };
