@@ -23,7 +23,7 @@
     compatible = "zmk,behavior-mod-morph"; \
     label = #NAME; \
     #binding-cells = <0>; \
-    bindings = <&kp KEY>, <MACRO>; \
+    bindings = <&kp KEY>, <&MACRO>; \
     mods = <(MOD_LSFT)>; \
   };
 
