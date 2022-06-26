@@ -29,6 +29,7 @@
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 70)
 
         // Vertical
+        COMBO(slashes, _SLASH_, 1 11, DEF, 50)
         COMBO(left_bracket, _LBRAC_, 2 12, DEF, 50)
         COMBO(left_parenthesis, _LPARN_, 3 13, DEF, 50)
         COMBO(underscore, &kp UNDERSCORE, 5 15, DEF, 50)
@@ -73,8 +74,8 @@
         */
 
         // One Shot NUM
-        COMBO(combo_NUM, &sl 2, 12 13, DEF, 40)
-        COMBO(combo_osqSHFT, osqSHFT, 11 12, DEF, 40)
+        COMBO(combo_NUM, &sl 2, 11 12, DEF, 40)
+        //COMBO(combo_osqSHFT, osqSHFT, 11 12, DEF, 40)
 
         // RESET and BOOTLOADER
         COMBO(combo_reset_left, &reset, 0 20, DEF, 60)
