@@ -24,7 +24,7 @@
 
         COMBO(enter, &kp ENTER, 7 8, DEF NAV, 70)
         COMBO(backspace, &kp BACKSPACE, 18 9, DEF NAV, 80)
-        COMBO(bksp_word, _BKSPW_, 8 9, DEF NAV, 90)
+        COMBO(bksp_word, _BKSPW_, 8 18, DEF NAV, 80)
         COMBO(tab, &kp TAB, 0 1, DEF NAV, 80)
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 70)
 
