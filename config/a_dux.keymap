@@ -9,6 +9,7 @@
 #define NUM 2
 #define SYS 3
 
+#include "macros.dtsi"
 #include "combos.dtsi"
 #include "mod_morph.dtsi"
 

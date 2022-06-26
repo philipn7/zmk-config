@@ -17,22 +17,15 @@
     mods = <(MOD_LSFT|MOD_RSFT)>; \
   };
 
-#define MOD_MORPH_NOSHIFT_MACRO(NAME, KEY, MOD_KEY) \
-ZMK_MACRO(macro_##NAME,\
-   wait-ms = <0>;\
-   tap-ms = <0>;\
-   bindings\
-   = <&macro_tap &kp MOD_KEY> \
-   ;)\
-\
-mm_##NAME: mm_##NAME {\
-   compatible = "zmk,behavior-mod-morph";\
-   label = #NAME;\
-   #binding-cells = <0>;\
-   bindings = <&kp KEY>, <&macro_##NAME>;\
-   mods = <(MOD_LSFT|MOD_RSFT)>;\
-   masked_mods = <(MOD_LSFT|MOD_RSFT)>; \
-}; \
+// Takes a MACRO as a parameter
+#define MOD_MORPH_MACRO(NAME, KEY, MACRO) \
+  mm_##NAME: mm_##NAME { \
+    compatible = "zmk,behavior-mod-morph"; \
+    label = #NAME; \
+    #binding-cells = <0>; \
+    bindings = <&kp KEY>, <MACRO>; \
+    mods = <(MOD_LSFT)>; \
+  };
 
 / {
     behaviors {
@@ -45,7 +38,7 @@ mm_##NAME: mm_##NAME {\
 
       // Symbols
       MOD_MORPH(minus_plus, MINUS, PLUS)
-      MOD_MORPH_NOSHIFT_MACRO(equals_arrow, EQUAL, EQUAL &kp GREATER_THAN)
+      MOD_MORPH_MACRO(equals_arrow, EQUAL, macro_equal_arrow)
     };
 };
 

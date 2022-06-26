@@ -1,0 +1,17 @@
+/ {
+    macros {
+        // To be used with the UNMASKED mod morph
+        macro_equal_arrow: macro_equal_arrow {
+            label = "macro_equal_arrow";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_release &kp LSHFT>
+                , <&macro_tap &kp EQUAL>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp GREATER_THAN>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+    };
+};
