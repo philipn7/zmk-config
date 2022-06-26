@@ -19,10 +19,6 @@
     release-after-ms = <1000>;
 };
 
-&kscan0 {
-  debounce-period = <10>;
-};
-
 / {
     behaviors {
       // Sticky Key with Quick Release
