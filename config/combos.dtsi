@@ -22,22 +22,22 @@
     combos {
         compatible = "zmk,combos";
 
-        COMBO(enter, &kp ENTER, 7 8, DEF NAV, 70)
         COMBO(tab, &kp TAB, 0 1, DEF NAV, 80)
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 70)
+        COMBO(enter, &kp ENTER, 7 8, DEF NAV, 70)
 
-        // Vertical
+        // Vertical Left Hand
+        // Z is a vertical combo on 0 10
         COMBO(slashes, _SLASH_, 1 11, DEF, 50)
-        COMBO(left_bracket, _LBRAC_, 2 12, DEF, 50)
-        COMBO(left_parenthesis, _LPARN_, 3 13, DEF, 50)
-        
+        COMBO(less_than, _LABRC_, 2 12, DEF, 50)
+        COMBO(left_bracket, _LBRAC_, 3 13, DEF, 50)
+        // Vertical Right
         COMBO(underscore, &kp UNDERSCORE, 5 15, DEF, 50)
         COMBO(left_brace, _LCBRC_, 6 16, DEF, 50)
-        COMBO(less_than, _LABRC_, 7 17, DEF, 50)
-        COMBO(bksp_word, _BKSPW_, 8 18, DEF NAV, 80)
-        COMBO(backspace, &kp BACKSPACE, 9 19, DEF NAV, 80)
+        COMBO(bksp_word, _BKSPW_, 7 17, DEF NAV, 80)
+        COMBO(backspace, &kp BACKSPACE, 8 18, DEF NAV, 80)
 
-        // Left Hand Symbols
+        // Symbols Left Hand
         COMBO(HASH, &kp HASH, 13 31, DEF, 40)
         COMBO(DOLLAR, &kp DOLLAR, 12 31, DEF, 40)
         COMBO(TILDE, &kp TILDE, 11 31, DEF, 40)
@@ -45,7 +45,7 @@
         COMBO(AT, &kp AT, 23 31, DEF, 40)
         COMBO(ASTRK, &kp ASTRK, 22 31, DEF, 40)
         
-        // Right Hand Symbols
+        // Symbols Right Hand
         COMBO(EXCL, &kp EXCL, 16 32, DEF, 40)
         COMBO(QUESTION, &kp QUESTION, 17 32, DEF, 40)
         COMBO(PERCENT, &kp PERCENT, 18 32, DEF, 40)

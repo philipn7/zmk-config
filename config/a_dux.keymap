@@ -33,6 +33,15 @@
         quick-release;
       };
 
+      td_shift_capsword: td_shift_capsword {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_SHIFT_CAPSWORD";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <osqSHFT>, <_CAPWD_>;
+        };
+
+      /*
       // Home Row Mods
       lh_pht: left_hand_positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -54,6 +63,7 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24>;    // <---[[left-hand keys]]
       };
+      */
     };
 };
 
@@ -66,10 +76,10 @@
     base_layer {
       label = "DEF";
       bindings = <
-        ___J___  ___G___  ___M___  ___P___  ___V___    _MINUS_  __DOT__  _COMMA_  _SQUOT_  _SCOLN_
-        ___R___  ___S___  ___N___  ___D___  ___B___    osqSHFT  ___A___  ___E___  ___I___  ___H___
+        ___J___  ___G___  ___M___  ___P___  ___V___    _MINUS_  __DOT__  _LPARN_  _SQUOT_  _SCOLN_
+        ___R___  ___S___  ___N___  ___D___  ___B___    _COMMA_  ___A___  ___E___  ___I___  ___H___
         _X_SYS_  ___F___  ___L___  ___C___  ___W___    _EQUAL_  ___U___  ___O___  ___Y___  ___K___
-                                   os_CTRL  _T_NAV_    _SPACE_  _CAPWD_  
+                                   os_CTRL  _T_NAV_    _SPACE_  osSHCAP  
       >;
     };
 

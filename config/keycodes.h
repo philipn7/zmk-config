@@ -18,6 +18,7 @@
 #define _T_NAV_ &lt NAV T
 #define _X_SYS_ &lt SYS X
 
+/*
 // Home Row Mods
 #define s__D___ &lh_pht LSFT D
 #define c__N___ &lh_pht LCTL N
@@ -27,6 +28,7 @@
 #define c__E___ &rh_pht LCTL E
 #define g__I___ &rh_pht LGUI I
 #define a__H___ &rh_pht LALT H
+*/
 
 
 #define ___A___ &kp A
@@ -117,6 +119,7 @@
 #define _HOME__ &kp HOME
 #define _CAPSL_ &kp CAPSLOCK
 #define _CAPWD_ &caps_word
+#define osSHCAP &td_shift_capsword
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
