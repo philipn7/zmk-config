@@ -22,61 +22,61 @@
     combos {
         compatible = "zmk,combos";
 
-        COMBO(tab, &kp TAB, 0 1, DEF NAV, 80)
-        COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 70)
-        COMBO(enter, &kp ENTER, 7 8, DEF NAV, 70)
+        COMBO(tab, &kp TAB, 0 1, DEF NAV, 100)
+        COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 100)
+        COMBO(enter, &kp ENTER, 7 8, DEF NAV, 100)
 
         // Vertical Left Hand
         // Z is a vertical combo on 0 10
-        COMBO(slashes, _SLASH_, 1 11, DEF, 50)
-        COMBO(less_than, _LABRC_, 2 12, DEF, 50)
-        COMBO(left_bracket, _LBRAC_, 3 13, DEF, 50)
+        COMBO(slashes, _SLASH_, 1 11, DEF, 70)
+        COMBO(less_than, _LABRC_, 2 12, DEF, 70)
+        COMBO(left_bracket, _LBRAC_, 3 13, DEF, 70)
         // Vertical Right
-        COMBO(underscore, &kp UNDERSCORE, 5 15, DEF, 50)
-        COMBO(left_brace, _LCBRC_, 6 16, DEF, 50)
-        COMBO(bksp_word, _BKSPW_, 7 17, DEF NAV, 80)
-        COMBO(backspace, &kp BACKSPACE, 8 18, DEF NAV, 80)
+        COMBO(underscore, &kp UNDERSCORE, 5 15, DEF, 70)
+        COMBO(left_brace, _LCBRC_, 6 16, DEF, 70)
+        COMBO(bksp_word, _BKSPW_, 7 17, DEF NAV, 100)
+        COMBO(backspace, &kp BACKSPACE, 8 18, DEF NAV, 100)
 
         // Symbols Left Hand
-        COMBO(HASH, &kp HASH, 13 31, DEF, 40)
-        COMBO(DOLLAR, &kp DOLLAR, 12 31, DEF, 40)
-        COMBO(TILDE, &kp TILDE, 11 31, DEF, 40)
-        COMBO(GRAVE, &kp GRAVE, 10 31, DEF, 40)
-        COMBO(AT, &kp AT, 23 31, DEF, 40)
-        COMBO(ASTRK, &kp ASTRK, 22 31, DEF, 40)
+        COMBO(HASH, &kp HASH, 13 31, DEF, 50)
+        COMBO(DOLLAR, &kp DOLLAR, 12 31, DEF, 50)
+        COMBO(TILDE, &kp TILDE, 11 31, DEF, 50)
+        COMBO(GRAVE, &kp GRAVE, 10 31, DEF, 50)
+        COMBO(AT, &kp AT, 23 31, DEF, 50)
+        COMBO(ASTRK, &kp ASTRK, 22 31, DEF, 50)
         
         // Symbols Right Hand
-        COMBO(EXCL, &kp EXCL, 16 32, DEF, 40)
-        COMBO(QUESTION, &kp QUESTION, 17 32, DEF, 40)
-        COMBO(PERCENT, &kp PERCENT, 18 32, DEF, 40)
-        COMBO(AMPS, &kp AMPS, 19 32, DEF, 40)
-        COMBO(CARET, &kp CARET, 26 32, DEF, 40)
-        COMBO(PIPE, &kp PIPE, 27 32, DEF, 40)
+        COMBO(EXCL, &kp EXCL, 16 32, DEF, 50)
+        COMBO(QUESTION, &kp QUESTION, 17 32, DEF, 50)
+        COMBO(PERCENT, &kp PERCENT, 18 32, DEF, 50)
+        COMBO(AMPS, &kp AMPS, 19 32, DEF, 50)
+        COMBO(CARET, &kp CARET, 26 32, DEF, 50)
+        COMBO(PIPE, &kp PIPE, 27 32, DEF, 50)
         
         // Shortcuts
-        COMBO(undo, WIN_UNDO, 20 21, DEF, 40)
-        COMBO(redo, WIN_REDO, 20 10, DEF, 40)
-        COMBO(copy, WIN_COPY, 21 22, DEF, 40)
-        COMBO(cut, WIN_CUT, 21 23, DEF, 40)
-        COMBO(paste, WIN_PASTE, 22 23, DEF, 40)
-        COMBO(select_all, WIN_SELECT_ALL, 20 23, DEF, 40)
+        COMBO(undo, WIN_UNDO, 20 21, DEF, 50)
+        COMBO(redo, WIN_REDO, 20 10, DEF, 50)
+        COMBO(copy, WIN_COPY, 21 22, DEF, 50)
+        COMBO(cut, WIN_CUT, 21 23, DEF, 50)
+        COMBO(paste, WIN_PASTE, 22 23, DEF, 50)
+        COMBO(select_all, WIN_SELECT_ALL, 20 23, DEF, 50)
 
         /* // Numpad combos
-        COMBO(num_1, &kp N1, 13 26, DEF, 40)
-        COMBO(num_2, &kp N2, 13 27, DEF, 40)
-        COMBO(num_3, &kp N3, 13 28, DEF, 40)
-        COMBO(num_4, &kp N4, 13 16, DEF, 40)
-        COMBO(num_5, &kp N5, 13 17, DEF, 40)
-        COMBO(num_6, &kp N6, 13 18, DEF, 40)
-        COMBO(num_7, &kp N7, 13 6, DEF, 40)
-        COMBO(num_8, &kp N8, 13 7, DEF, 40)
-        COMBO(num_9, &kp N9, 13 8, DEF, 40)
-        COMBO(num_0, &kp N0, 13 15, DEF, 40)
+        COMBO(num_1, &kp N1, 13 26, DEF, 50)
+        COMBO(num_2, &kp N2, 13 27, DEF, 50)
+        COMBO(num_3, &kp N3, 13 28, DEF, 50)
+        COMBO(num_4, &kp N4, 13 16, DEF, 50)
+        COMBO(num_5, &kp N5, 13 17, DEF, 50)
+        COMBO(num_6, &kp N6, 13 18, DEF, 50)
+        COMBO(num_7, &kp N7, 13 6, DEF, 50)
+        COMBO(num_8, &kp N8, 13 7, DEF, 50)
+        COMBO(num_9, &kp N9, 13 8, DEF, 50)
+        COMBO(num_0, &kp N0, 13 15, DEF, 50)
         */
 
         // One Shot NUM
-        COMBO(combo_NUM, &sl 2, 11 12, DEF, 40)
-        //COMBO(combo_osqSHFT, osqSHFT, 11 12, DEF, 40)
+        COMBO(combo_NUM, &sl 2, 11 12, DEF, 50)
+        //COMBO(combo_osqSHFT, osqSHFT, 11 12, DEF, 50)
 
         // RESET and BOOTLOADER
         COMBO(combo_reset_left, &reset, 0 20, DEF, 60)
@@ -84,7 +84,7 @@
         COMBO(combo_bootloader_left, &bootloader, 4 24, DEF, 60)
         COMBO(combo_bootloader_right, &bootloader, 5 25, DEF, 60)
 
-        COMBO(combo_z, &kp Z, 0 10, DEF, 60)
-        COMBO(combo_q, &kp Q, 16 26, DEF, 60)
+        COMBO(combo_z, &kp Z, 0 10, DEF, 70)
+        COMBO(combo_q, &kp Q, 16 26, DEF, 70)
     };
 };
