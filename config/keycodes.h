@@ -15,8 +15,8 @@
 // #define MAC_CUT &kp LG(X)
 // #define MAC_SELECT_ALL &kp LG(A)
 
-#define x_NAV_x &lt NAV T
-#define o_NUM_o &mo NUM
+#define _T_NAV_ &lt NAV T
+#define _X_SYS_ &lt SYS X
 
 // Home Row Mods
 #define s__D___ &lh_pht LSFT D
