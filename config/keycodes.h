@@ -109,6 +109,7 @@
 #define _RIGHT_ &kp RIGHT
 
 #define _SPACE_ &kp SPACE
+#define SPC_SFT &bht LEFT_SHIFT SPACE
 #define __TAB__ &kp TAB
 #define _ENTER_ &kp ENTER
 #define _BKSPC_ &kp BACKSPACE
