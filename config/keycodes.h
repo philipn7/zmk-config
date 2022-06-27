@@ -16,7 +16,10 @@
 // #define MAC_SELECT_ALL &kp LG(A)
 
 #define _T_NAV_ &lt NAV T
+#define SPC_NAV &lt NAV SPACE
+#define _T_SHFT &bht LEFT_SHIFT T
 #define _X_SYS_ &lt SYS X
+#define osSHCAP &td_shift_capsword
 
 /*
 // Home Row Mods
@@ -120,7 +123,7 @@
 #define _HOME__ &kp HOME
 #define _CAPSL_ &kp CAPSLOCK
 #define _CAPWD_ &caps_word
-#define osSHCAP &td_shift_capsword
+
 
 #define _LSHFT_ &kp LEFT_SHIFT
 #define _LCTRL_ &kp LEFT_CONTROL
