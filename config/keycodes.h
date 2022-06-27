@@ -16,8 +16,9 @@
 // #define MAC_SELECT_ALL &kp LG(A)
 
 #define _T_NAV_ &lt NAV T
-#define SPC_NAV &lt NAV SPACE
 #define _T_SHFT &bht LEFT_SHIFT T
+#define SPC_NAV &lt NAV SPACE
+#define SPC_SFT &bht LEFT_SHIFT SPACE
 #define _X_SYS_ &lt SYS X
 #define osSHCAP &td_shift_capsword
 
@@ -112,7 +113,6 @@
 #define _RIGHT_ &kp RIGHT
 
 #define _SPACE_ &kp SPACE
-#define SPC_SFT &bht LEFT_SHIFT SPACE
 #define __TAB__ &kp TAB
 #define _ENTER_ &kp ENTER
 #define _BKSPC_ &kp BACKSPACE

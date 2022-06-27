@@ -90,7 +90,7 @@
         ___J___  ___G___  ___M___  ___P___  ___V___    _MINUS_  __DOT__  _LPARN_  _SQUOT_  _SCOLN_
         ___R___  ___S___  ___N___  ___D___  ___B___    _COMMA_  ___A___  ___E___  ___I___  ___H___
         _X_SYS_  ___F___  ___L___  ___C___  ___W___    _EQUAL_  ___U___  ___O___  ___Y___  ___K___
-                                   osSHCAP  _T_SHFT    SPC_NAV  os_CTRL  
+                                   os_CTRL  _T_NAV_    SPC_SFT  osSHCAP  
       >;
     };
 
