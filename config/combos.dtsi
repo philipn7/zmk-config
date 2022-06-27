@@ -26,6 +26,8 @@
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 100)
         COMBO(enter, &kp ENTER, 7 8, DEF NAV, 100)
 
+        COMBO(space_osshift, &macro_space_osshift, 31 32, DEF, 100)
+
         // Vertical Left Hand
         // Z is a vertical combo on 0 10
         COMBO(slashes, _SLASH_, 1 11, DEF, 70)

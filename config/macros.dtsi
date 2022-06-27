@@ -15,5 +15,17 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };
+
+        macro_space_osshift: macro_space_osshift {
+            label = "macro_space_osshift";
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp SPACE>
+                , <&macro_tap osqSHFT>
+                ;
+        };
     };
 };
