@@ -87,7 +87,7 @@
     base_layer {
       label = "DEF";
       bindings = <
-        ___W___  ___F___  ___M___  ___P___  _SLASH_    _SQUOT_  __DOT__  _LPARN_  _SCOLN_  ___K___
+        ___W___  ___F___  ___M___  ___P___  _SLASH_    _SCOLN_  __DOT__  _LPARN_  _SQUOT_  ___K___
         ___R___  ___S___  ___N___  ___T___  ___B___    _COMMA_  ___A___  ___E___  ___I___  ___H___
         _X_SYS_  ___C___  ___L___  ___D___  ___G___    _EQUAL_  ___U___  ___O___  ___Y___  _MINUS_
                                    _______  SPC_NAV    osSHCAP  os_CTRL  
