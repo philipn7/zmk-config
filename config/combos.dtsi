@@ -90,9 +90,9 @@
         COMBO(combo_bootloader_left, &bootloader, 4 24, DEF, 60)
         COMBO(combo_bootloader_right, &bootloader, 5 25, DEF, 60)
 
-        COMBO(combo_z, &kp Z, 0 10, DEF, 70)
-        COMBO(combo_v, &kp V, 4 14, DEF, 70)
-        COMBO(combo_q, &kp Q, 16 26, DEF, 70)
-        COMBO(combo_j, &kp J, 15 25, DEF, 70)
+        COMBO(combo_z, &kp Z, 0 10, DEF, 100)
+        COMBO(combo_v, &kp V, 4 14, DEF, 100)
+        COMBO(combo_q, &kp Q, 16 26, DEF, 100)
+        COMBO(combo_j, &kp J, 15 25, DEF, 100)
     };
 };
