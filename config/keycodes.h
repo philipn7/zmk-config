@@ -7,6 +7,7 @@
 #define WIN_PASTE &kp LC(V)
 #define WIN_CUT &kp LC(X)
 #define WIN_SELECT_ALL &kp LC(A)
+#define WIN_SAVE &kp LC(S)
 
 // #define MAC_UNDO &kp LG(Z)
 // #define MAC_REDO &kp LS(LG(Z))
@@ -15,6 +16,8 @@
 // #define MAC_CUT &kp LG(X)
 // #define MAC_SELECT_ALL &kp LG(A)
 
+
+// Thumbs
 #define _T_NAV_ &lt NAV T
 #define _T_SHFT &bht LEFT_SHIFT T
 #define SPC_NAV &lt NAV SPACE
