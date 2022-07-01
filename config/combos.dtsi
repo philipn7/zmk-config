@@ -22,9 +22,9 @@
     combos {
         compatible = "zmk,combos";
 
-        COMBO(tab, &kp TAB, 0 1, DEF NAV, 100)
+        COMBO(tab, &kp TAB, 0 11, DEF NAV, 100)
         COMBO(escape, &kp ESCAPE, 1 2, DEF NAV, 100)
-        COMBO(enter, &kp ENTER, 7 8, DEF NAV, 100)
+        COMBO(enter, &kp ENTER, 7 8, DEF NAV, 120)
 
         COMBO(space_osshift, &macro_space_osshift, 31 32, DEF, 100)
 
