@@ -30,9 +30,9 @@
 
         // Vertical Left Hand
         // 
-        COMBO(enter, &kp ENTER, 1 11, DEF NAV, 120)
-        COMBO(left_bracket, _LBRAC_, 2 12, DEF, 100)
-        COMBO(left_brace, _LCBRC_, 3 13, DEF, 100)
+        COMBO(left_bracket, _LBRAC_, 1 11, DEF, 100)
+        COMBO(left_brace, _LCBRC_, 2 12, DEF, 100)
+        COMBO(enter, &kp ENTER, 3 13, DEF NAV, 100)
         // 
 
         // Vertical Right
